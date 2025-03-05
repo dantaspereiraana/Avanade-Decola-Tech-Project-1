@@ -11,8 +11,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
-web:
-  cors:
-    allowed-origins: "https://web-production-4deb.up.railway.app"  # URL do seu Swagger UI
-    allowed-methods: "*"
-    allowed-headers: "*"
+  web:
+    cors:
+      allowed-origins: "https://web-production-4deb.up.railway.app"  # URL do seu Swagger UI
+      allowed-methods: "*"
+      allowed-headers: "*"
