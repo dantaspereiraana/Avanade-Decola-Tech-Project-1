@@ -1,18 +1,12 @@
 spring:
   datasource:
-    url: jdbc:postgresql://caboose.proxy.rlwy.net:17753/railway
+    url: jdbc:postgresql://trolley.proxy.rlwy.net:19806/railway
     username: postgres
-    password: jyVemwwBSpQEoLxdyLKIzCtPKMyIenbm
+    password: WhvQomOcITciZlpsfYWVmYNzpXhwKNYE
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: validate
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-
-  web:
-    cors:
-      allowed-origins: "https://web-production-4deb.up.railway.app"  # URL do seu Swagger UI
-      allowed-methods: "*"
-      allowed-headers: "*"
